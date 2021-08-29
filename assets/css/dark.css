@@ -20,7 +20,11 @@ header#banner nav ul li a {
 }
 
 main#content a {
-    color: #00b1ed;
+    color: #87C3E9;
+}
+
+main#content a:visited {
+    color: #7195B1;
 }
 
 main#content p {
@@ -40,7 +44,7 @@ main#content ul#posts small {
 }
 
 main#content ul#posts li a:hover {
-    color: #21c7ff;
+    color: #87C3E9;
 }
 
 main#content header#post-header div {

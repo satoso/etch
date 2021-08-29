@@ -61,8 +61,12 @@ header#banner nav ul li a {
 }
 
 main#content a {
-    color: #007dfa;
-    text-decoration: none;
+    color: #4186d3;
+    text-decoration: underline;
+}
+
+main#content a:visited {
+    color: #274f7d;
 }
 
 main#content a:hover {
@@ -131,7 +135,7 @@ main#content ul#posts li a {
 }
 
 main#content ul#posts li a:hover {
-    color: #369aff;
+    color: #4186d3;
 }
 
 main#content ul#posts li a:hover small {
