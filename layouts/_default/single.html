@@ -5,9 +5,9 @@
             <div>
             {{- if isset .Params "date" -}}
                 {{ if eq .Lastmod .Date }}
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                <time>{{ .Date.Format "2006-01-02 Mon" }}</time>
                 {{ else }}
-                Updated <time>{{ .Lastmod.Format "January 2, 2006" }}</time>
+                Updated <time>{{ .Lastmod.Format "2006-01-02 Mon" }}</time>
                 {{ end }}
             {{- end -}}
             </div>
