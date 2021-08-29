@@ -89,6 +89,12 @@ main#content h3 {
     font-size: 1.9rem;
 }
 
+main#content.diary h2 {
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 1.8em;
+}
+
 main#content h1 + p,
 main#content h2 + p,
 main#content h3 + p,
@@ -109,6 +115,31 @@ main#content hr {
     background: #d8d8d8;
 }
 
+/* <hr> decoration for diary */
+/* ref: http://hail2u.net/blog/webdesign/swap-hr-element-with-characters.html */
+main#content.diary hr {
+    margin: 0.8em auto;
+    border: none;
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 0.2em;
+    background-color: transparent;
+    box-sizing: content-box;
+}
+main#content.diary hr:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    line-height: 1em;
+    content: "\002a";
+    color: #000;
+    font-size: 100%;
+    text-align: center;
+}
+/* <hr> decoration end */
+  
 /* index.html styles */
 main#content ul#posts {
     list-style-type: none;
