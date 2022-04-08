@@ -278,6 +278,17 @@ main#content blockquote {
     border-left: 3px solid #ccc;
 }
 
+main#content em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+main#content strong {
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 main#content code,
 main#content pre {
     font-family: 'Menlo', monospace;
