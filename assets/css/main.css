@@ -279,11 +279,13 @@ main#content blockquote {
 }
 
 main#content em {
+    font-family: 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
     font-style: normal;
     font-weight: bold;
 }
 
 main#content strong {
+    font-family: 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
     font-style: normal;
     font-weight: bold;
     text-decoration: underline;
