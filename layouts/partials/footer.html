@@ -1,3 +1,6 @@
 <footer id="footer">
     {{ .Site.Params.copyright }}
+    {{- with .Site.Params.footerLink }}
+    <a class="footer-link" href="{{ .url }}" rel="nofollow">{{ .name }}</a>
+    {{- end }}
 </footer>

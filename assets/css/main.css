@@ -333,3 +333,13 @@ footer#footer {
     color: #b3b3b3;
     margin: 40px 0;
 }
+
+footer#footer a.footer-link {
+    color: inherit;
+    margin-left: 0.8em;
+    text-decoration: none;
+}
+
+footer#footer a.footer-link:hover {
+    text-decoration: underline;
+}
