@@ -9,12 +9,13 @@ html {
 body {
     font-size: 16px;
     font-size: 1.6rem;
-    font-family: 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Figtree', 'Zen Kaku Gothic Antique', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #313a3d;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
     line-height: 1.6;
+    letter-spacing: 0.03em;
     text-autospace: normal;
     -webkit-text-size-adjust: 100%;
     overflow-wrap: break-word;
@@ -84,7 +85,7 @@ main#content h6 {
     margin-bottom: 0;
     line-height: 1.15;
     /* 'Yu Gothic' instead of 'Yu Gothic Medium' for bold font */
-    font-family: 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
+    font-family: 'Figtree', 'Zen Kaku Gothic Antique', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
     font-feature-settings: "palt";
 }
 
@@ -286,13 +287,13 @@ main#content blockquote {
 }
 
 main#content em {
-    font-family: 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
+    font-family: 'Figtree', 'Zen Kaku Gothic Antique', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
     font-style: normal;
     font-weight: bold;
 }
 
 main#content strong {
-    font-family: 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
+    font-family: 'Figtree', 'Zen Kaku Gothic Antique', 'Helvetica Neue', 'Arial', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', YuGothic, 'Yu Gothic', Meiryo, sans-serif;
     font-style: normal;
     font-weight: bold;
     text-decoration: underline;
@@ -300,7 +301,8 @@ main#content strong {
 
 main#content code,
 main#content pre {
-    font-family: 'Menlo', monospace;
+    font-family: 'JetBrains Mono', 'Menlo', monospace;
+    letter-spacing: normal;
 }
 
 main#content code {
